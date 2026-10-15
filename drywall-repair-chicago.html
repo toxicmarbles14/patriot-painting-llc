@@ -2,154 +2,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn about drywall repair in Chicago, including fixing holes, cracks, water-damaged drywall, and preparing repaired walls for painting.">
-  <title>Drywall Repair in Chicago | Windy City Paint & Drywall</title>
-  <style>
-    * { box-sizing: border-box; }
-    body { margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.7; color: #253247; background: #f5f7fa; }
-    .notice { background: #fff0ce; color: #493917; padding: 13px 20px; text-align: center; font-size: 14px; font-weight: bold; }
-    header { background: #173653; color: white; }
-    .brand { text-align: center; padding: 25px 15px 15px; }
-    .brand h1 { margin: 0; font-size: 30px; }
-    .brand p { margin: 5px 0; color: #e1eaf2; }
-    nav { background: #102940; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; padding: 12px; }
-    nav a { color: white; text-decoration: none; padding: 9px 13px; border-radius: 5px; font-weight: bold; }
-    nav a:hover, nav a.active { background: #d39a46; color: #17283b; }
-    .hero { background: #244b6a; color: white; text-align: center; padding: 55px 20px; }
-    .hero h2 { font-size: 34px; margin: 0 auto 12px; max-width: 800px; color: white; }
-    .hero p { max-width: 700px; margin: auto; font-size: 18px; }
-    main { max-width: 1000px; margin: auto; padding: 35px 20px; }
-    section { margin-bottom: 40px; }
-    h2 { color: #173653; }
-    h3 { color: #244b6a; }
-    .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
-    .card { background: white; padding: 24px; border-radius: 8px; border-top: 5px solid #d39a46; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
-    .card h3 { margin-top: 0; }
-    .highlight { background: #e6edf4; padding: 25px; border-left: 5px solid #d39a46; border-radius: 5px; }
-    a { color: #175a91; }
-    footer { background: #173653; color: white; text-align: center; padding: 30px 20px; }
-    footer a { color: #ffce82; }
-    footer .notice { margin-top: 20px; }
-    @media (max-width: 700px) {
-      .cards { grid-template-columns: 1fr; }
-      .hero h2 { font-size: 27px; }
-      .brand h1 { font-size: 24px; }
-      nav a { font-size: 14px; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Learn about drywall repair in Chicago with Patriot Painting LLC. Explore wall patching, crack repair, water damage, drywall finishing, and painting.">
+<title>Drywall Repair in Chicago | Patriot Painting LLC</title>
+<style>
+:root{--navy:#102b4e;--blue:#214d7b;--red:#b52332;--ink:#263345}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.7;color:var(--ink)}
+.notice{background:#fff2d6;color:#493918;text-align:center;padding:12px 18px;font-size:13px;font-weight:bold}
+.topbar{background:var(--navy);color:white;text-align:right;padding:9px 6%;font-size:13px}
+header{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:18px 6%;border-bottom:4px solid var(--red)}
+.logo{text-decoration:none;color:var(--navy);font-size:25px;font-weight:900;letter-spacing:1px;line-height:1.1}
+.logo span{color:var(--red)}
+.logo small{display:block;font-size:11px;letter-spacing:3px;margin-top:7px;color:var(--blue)}
+nav{display:flex;flex-wrap:wrap;gap:7px}
+nav a{text-decoration:none;color:var(--navy);font-weight:bold;font-size:13px;padding:10px;border-radius:3px}
+nav a:hover,nav a.active{background:var(--red);color:white}
+.hero{background:linear-gradient(110deg,rgba(16,43,78,.96),rgba(33,77,123,.9)),repeating-linear-gradient(45deg,#b52332 0 15px,#fff 15px 30px);color:white;text-align:center;padding:85px 20px}
+.hero h1{font-size:clamp(34px,5vw,55px);line-height:1.15;max-width:900px;margin:0 auto 20px}
+.hero p{font-size:19px;max-width:700px;margin:auto}
+.container{max-width:1100px;margin:auto;padding:65px 24px}
+h2{color:var(--navy);font-size:clamp(28px,4vw,39px);line-height:1.2}
+h3{color:var(--navy)}
+.label{color:var(--red);text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.card{padding:30px;background:white;border:1px solid #e0e5ed;border-top:5px solid var(--red);box-shadow:0 6px 20px rgba(0,0,0,.05)}
+.card h3{margin-top:0}
+.soft{background:#f6f7f9}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:start}
+.feature{background:var(--navy);color:white;padding:35px;border-left:6px solid var(--red)}
+.feature h3{color:white}
+a{color:var(--blue)}
+.cta{background:var(--blue);text-align:center;color:white;padding:55px 20px}
+.cta h2{color:white}
+.btn{display:inline-block;background:var(--red);color:white;text-decoration:none;padding:13px 25px;font-weight:bold;border-radius:3px;margin:5px}
+.btn:hover{background:#8e1726}
+footer{background:var(--navy);color:white;text-align:center;padding:40px 20px 0}
+footer a{color:white;margin:0 8px}
+footer .notice{margin-top:35px}
+@media(max-width:800px){
+header{flex-direction:column;text-align:center}
+nav{justify-content:center}
+.grid,.split{grid-template-columns:1fr}
+.container{padding:45px 20px}
+.topbar{text-align:center}
+}
+</style>
 </head>
 <body>
-
 <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
 
+<div class="topbar">Proudly Inspired by Chicago & Its Surrounding Communities</div>
 <header>
-  <div class="brand">
-    <h1>Windy City Paint & Drywall Co.</h1>
-    <p>Fresh Walls. Fresh Possibilities.</p>
-  </div>
-  <nav aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="painting-drywall-services-chicago.html">Painting & Drywall Services</a>
-    <a href="chicago-painting-drywall.html">Chicago Painting & Drywall</a>
-    <a class="active" href="drywall-repair-chicago.html" aria-current="page">Drywall Repair</a>
-  </nav>
+<a class="logo" href="index.html">PATRIOT <span>PAINTING</span><small>LLC | PAINTING & DRYWALL</small></a>
+<nav aria-label="Main navigation">
+<a href="index.html">Home</a>
+<a href="painting-drywall-services-chicago.html">Our Services</a>
+<a href="chicago-painting-drywall.html">Painting & Drywall</a>
+<a class="active" aria-current="page" href="drywall-repair-chicago.html">Drywall Repair</a>
+</nav>
 </header>
 
-<div class="hero">
-  <h2>Drywall Repair in Chicago</h2>
-  <p>From small nail holes to larger damaged sections, discover how proper drywall repair helps restore the comfort and appearance of a home.</p>
-</div>
+<section class="hero">
+<h1>Drywall Repair in Chicago</h1>
+<p>Restore damaged walls and ceilings with thoughtful repair techniques, careful surface preparation, and professional-looking finishes.</p>
+</section>
 
 <main>
-  <section>
-    <h2>Understanding Drywall Damage</h2>
-    <p>Drywall is a common interior wall material because it provides a practical, smooth surface for painting and decorating. However, everyday activity, moisture, and building movement can sometimes cause visible damage.</p>
-    <p>Our fictional Windy City Paint & Drywall Co. emphasizes understanding the cause of damage before selecting a repair method. A successful repair should address the affected surface while considering whether the underlying issue could return.</p>
-  </section>
+<section class="container">
+<div class="label">Wall Restoration</div>
+<h2>Bringing Damaged Walls Back to Life</h2>
+<p>Everyday living can take a toll on interior walls. Furniture impacts, removed fixtures, moisture, and ordinary building movement may leave drywall with visible damage.</p>
+<p>At the fictional Patriot Painting LLC, our imagined drywall repair service focuses on identifying the problem, selecting an appropriate repair method, and preparing the restored surface for painting.</p>
+<p>Whether the issue is a small nail hole or a larger damaged section, the goal is to create a smooth, consistent surface that fits naturally into the surrounding room.</p>
+</section>
 
-  <section>
-    <h2>Common Drywall Problems in Chicago Homes</h2>
-    <div class="cards">
-      <article class="card">
-        <h3>Small Holes and Dents</h3>
-        <p>Furniture impacts, door handles, and removed wall decorations can leave small holes or dents. Many minor imperfections can be repaired with appropriate patching compound.</p>
-      </article>
-      <article class="card">
-        <h3>Wall and Ceiling Cracks</h3>
-        <p>Cracks may develop near drywall seams, corners, or openings. The cause should be evaluated, particularly when cracks widen or repeatedly return.</p>
-      </article>
-      <article class="card">
-        <h3>Water-Damaged Drywall</h3>
-        <p>Leaks can cause staining, swelling, softness, and deterioration. The moisture source must be corrected, and damaged material may need replacement before refinishing.</p>
-      </article>
-      <article class="card">
-        <h3>Damaged Drywall Seams</h3>
-        <p>Loose joint tape and visible seams can disrupt a wall's appearance. Repairs may involve removing loose material, applying new tape, and blending joint compound into the surrounding surface.</p>
-      </article>
-    </div>
-  </section>
+<section class="soft">
+<div class="container">
+<div class="label">Common Problems</div>
+<h2>Types of Drywall Damage</h2>
+<div class="grid">
+<article class="card">
+<h3>Holes & Dents</h3>
+<p>Accidental impacts, door handles, and removed wall fixtures can damage drywall. Repairs may involve patching compound, reinforcement, or replacement material.</p>
+</article>
+<article class="card">
+<h3>Cracks</h3>
+<p>Cracks sometimes appear around joints, windows, doors, and corners. Recurring or widening cracks should be evaluated for underlying movement.</p>
+</article>
+<article class="card">
+<h3>Water Damage</h3>
+<p>Leaks may cause staining, swelling, softness, and deterioration. The moisture source must be corrected before damaged drywall is repaired or replaced.</p>
+</article>
+<article class="card">
+<h3>Visible Seams & Loose Tape</h3>
+<p>Failed joint tape or uneven compound can leave noticeable lines. Correcting the joint and feathering the repair helps restore a more uniform appearance.</p>
+</article>
+</div>
+</div>
+</section>
 
-  <section>
-    <h2>How Drywall Repair Works</h2>
-    <h3>1. Inspect the Damage</h3>
-    <p>The first step is identifying the damaged area and determining whether the problem is cosmetic or related to moisture, movement, or another underlying condition.</p>
+<section class="container split">
+<div>
+<div class="label">Repair Process</div>
+<h2>How Drywall Repairs Are Completed</h2>
+<h3>1. Assess the Damage</h3>
+<p>Identify the affected area, its size, and any signs of moisture or recurring movement.</p>
+<h3>2. Prepare the Area</h3>
+<p>Protect nearby surfaces and remove loose or unsound material.</p>
+<h3>3. Patch and Finish</h3>
+<p>Install suitable repair material, apply joint compound, and allow each layer to dry as required.</p>
+<h3>4. Sand and Prime</h3>
+<p>Smooth the repaired surface and apply appropriate primer before painting.</p>
+<h3>5. Complete the Finish</h3>
+<p>Paint the repaired area or surrounding wall to achieve a consistent appearance.</p>
+</div>
+<div class="feature">
+<h3>Repair Before Repainting</h3>
+<p>Painting over damaged drywall rarely solves the underlying problem. Holes, raised seams, and uneven patches can remain visible after new paint is applied.</p>
+<p>Completing repairs first helps produce a smoother final result and avoids unnecessary repainting.</p>
+</div>
+</section>
 
-    <h3>2. Prepare the Surface</h3>
-    <p>Loose material is removed and the surrounding area is protected. Depending on the damage, the repair may require backing material, drywall tape, or a replacement panel section.</p>
+<section class="soft">
+<div class="container">
+<div class="label">Homeowner Questions</div>
+<h2>Drywall Repair FAQs</h2>
+<h3>Can a hole be repaired without replacing an entire wall?</h3>
+<p>Often, yes. Many localized holes can be patched by repairing or replacing only the damaged section. The method depends on the size and location of the opening.</p>
+<h3>How long does drywall repair take?</h3>
+<p>Small repairs may be relatively simple, while larger repairs can require multiple coats of compound, drying time, sanding, priming, and painting over several days.</p>
+<h3>Can water-damaged drywall be painted over?</h3>
+<p>Painting alone is not a suitable solution for active moisture damage. The leak or moisture source must be resolved, and compromised materials may need removal or replacement.</p>
+<h3>Will the repair be noticeable after painting?</h3>
+<p>Careful finishing and priming can help repaired areas blend with surrounding surfaces. Existing wall texture, lighting, and paint age may influence the final appearance.</p>
+<h3>Is drywall the same as plaster?</h3>
+<p>No. Many older Chicago buildings contain plaster walls, which can require different repair techniques from modern drywall. Identifying the material helps determine the correct approach.</p>
+</div>
+</section>
 
-    <h3>3. Apply Repair Materials</h3>
-    <p>Suitable patching materials and joint compound are applied in controlled layers. Larger repairs often require multiple applications with drying time between coats.</p>
+<section class="container">
+<div class="label">Chicago Homes</div>
+<h2>Understanding Local Wall Conditions</h2>
+<p>Chicago's mix of historic residences and modern housing creates a wide variety of interior wall conditions. Older buildings may contain plaster, previous drywall repairs, or multiple layers of paint.</p>
+<p>Seasonal temperature changes, humidity, and water intrusion can also influence wall performance. Where cracks or damage repeatedly return, the cause should be investigated rather than simply concealed.</p>
+<p>For projects involving extensive water damage, suspected mold, or structural concerns, qualified professionals should assess the underlying condition before cosmetic restoration begins.</p>
+</section>
 
-    <h3>4. Sand and Prime</h3>
-    <p>Once the repair has dried, the surface is smoothed and prepared for primer. Priming helps reduce differences in paint absorption between repaired and existing surfaces.</p>
-
-    <h3>5. Paint the Finished Area</h3>
-    <p>Matching the surrounding paint color and sheen helps the repaired area blend in. In some situations, repainting the entire wall provides a more consistent appearance than touching up one section.</p>
-  </section>
-
-  <section class="highlight">
-    <h2>When Should a Homeowner Seek Professional Help?</h2>
-    <p>Small cosmetic holes are often manageable with basic repair materials. Larger damaged areas, recurring cracks, and problems involving moisture may require professional evaluation.</p>
-    <p>Water damage should never be treated as a paint-only issue. The source of the moisture must be resolved first, and mold or other hazardous conditions may require qualified remediation.</p>
-  </section>
-
-  <section>
-    <h2>Drywall Repair Questions</h2>
-    <h3>Can drywall be repaired without replacing the entire wall?</h3>
-    <p>Yes. Many localized problems can be repaired by patching or replacing only the affected section. The appropriate method depends on the size and cause of the damage.</p>
-
-    <h3>How long does drywall repair take?</h3>
-    <p>Timing varies with repair size, material choice, environmental conditions, and drying requirements. A small patch may be straightforward, while extensive damage can involve several stages over multiple days.</p>
-
-    <h3>Will the repaired area be visible after painting?</h3>
-    <p>Careful feathering, sanding, priming, and paint application can reduce visible differences. Lighting conditions, existing wall texture, and paint age can influence the final appearance.</p>
-
-    <h3>Should drywall be repaired before painting?</h3>
-    <p>Yes. Repairing surface imperfections before painting generally produces a more uniform finish and avoids the need to repaint areas after repairs.</p>
-  </section>
-
-  <section>
-    <h2>Drywall Considerations for Chicago Properties</h2>
-    <p>Chicago homes range from older buildings with plaster walls to newer properties with modern drywall systems. Identifying the wall material is important because plaster and drywall repairs can require different techniques.</p>
-    <p>Seasonal humidity changes, plumbing problems, and previous renovation work may also affect wall condition. The goal is to understand the specific surface before beginning a repair.</p>
-  </section>
-
-  <section>
-    <h2>Explore Related Painting Services</h2>
-    <p>Once drywall has been repaired, a fresh paint finish can help complete the room. Visit our <a href="chicago-painting-drywall.html">Chicago painting and drywall guide</a> for paint selection and surface preparation information.</p>
-    <p>For a broader overview of available project types, explore our <a href="painting-drywall-services-chicago.html">painting and drywall services page</a>, or return to the <a href="index.html">homepage</a>.</p>
-  </section>
+<section class="cta">
+<h2>A Smooth Wall Deserves a Great Finish</h2>
+<p>Discover how drywall repair and painting work together to transform a room.</p>
+<a class="btn" href="chicago-painting-drywall.html">Explore Painting</a>
+<a class="btn" href="painting-drywall-services-chicago.html">All Services</a>
+</section>
 </main>
 
 <footer>
-  <p><strong>Windy City Paint & Drywall Co.</strong></p>
-  <p>Fictional Chicago Painting and Drywall Company</p>
-  <p><a href="index.html">Home</a> | <a href="painting-drywall-services-chicago.html">Services</a> | <a href="chicago-painting-drywall.html">Painting & Drywall</a> | <a href="drywall-repair-chicago.html">Drywall Repair</a></p>
-  <p>&copy; 2026 Windy City Paint & Drywall Co. Educational demonstration.</p>
-  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+<h3 style="color:white">PATRIOT PAINTING LLC</h3>
+<p>Quality Work. Lasting Results.</p>
+<p>
+<a href="index.html">Home</a>
+<a href="painting-drywall-services-chicago.html">Services</a>
+<a href="chicago-painting-drywall.html">Painting</a>
+<a href="drywall-repair-chicago.html">Drywall Repair</a>
+</p>
+<p>&copy; 2026 Patriot Painting LLC. Fictional educational project.</p>
+<div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
 </footer>
-
 </body>
 </html>
