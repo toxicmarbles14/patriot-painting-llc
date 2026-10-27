@@ -1,0 +1,7 @@
+
+# Patriot Painting LLC
+# Fictional website for MKTG:4400
+# University of Iowa
+
+User-agent: *
+Allow: /
